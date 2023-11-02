@@ -36,3 +36,4 @@
 * [Day 33](day-33.md)
 * [Day 34](day-34.md)
 * [Day 35](day-35.md)
+* [Day 36](day-36.md)
