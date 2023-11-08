@@ -54,7 +54,7 @@ NTP authentication can be configured but it is optional. It allows NTP clients t
 3. Specify the trusted key - `ntp trusted-key` followed by the key number.
 4. Specify the key which is needed to use for the server - `ntp server` followed by the server IP address, `key`, and the key number. This command is not needed on the server itself. The same can be applied to peers as well.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 37 Flashcards - NTP.apkg" %}
 
