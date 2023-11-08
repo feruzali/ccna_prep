@@ -33,7 +33,7 @@ Every Awesome Cisco Engineer Will Need Ice-cream Daily - the good way to remembe
 #### Configuration
 
 * Configure logging to the console line -  `logging console` followed by the severity level number or keyword. This enables logging for the specified severity level and higher.
-* Configure logging to the VTY lines - `logging monitor` followed by the severity level. By default, Syslog messages are not displayed. To display them, use the command `terminal monitor` every time you connect to the device via Telnet or SSH.
+* Configure logging to the VTY lines - `logging monitor` followed by the severity level. By default, Syslog messages are not displayed. To display them, use the command `terminal monitor` from the privileged exec mode every time you connect to the device via Telnet or SSH.
 * Configure logging to the buffer - `logging buffered` followed by the buffer size in bytes and the severity level.
 * Configure logging to an external server - `logging` or `logging host` followed by the server IP address. To set the logging level - `logging trap` followed by the severity level.
 
