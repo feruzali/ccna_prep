@@ -43,3 +43,4 @@
 * [Day 40](day-40.md)
 * [Day 41](day-41.md)
 * [Day 42](day-42.md)
+* [Day 43](day-43.md)

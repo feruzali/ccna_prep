@@ -12,7 +12,7 @@ description: DNS
 
 The hosts can automatically learn the address of the DNS server via **DHCP**. To see the basic IP configuration info on Windows, enter the command `ipconfig` from the command prompt. For more detailed output, use `ipconfig /all`. To ask a DNS server for an IP address of the specific website, use the command `nslookup` on Windows. To ping a device with a specific number of pings on Windows, use the command `ping` followed by an IP address, option `-n`, and the number of pings to send.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="nslookup demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="nslookup demo" width="563"><figcaption></figcaption></figure>
 
 DNS `A` records are used to map names to IPv4 addresses, and `AAAA` records - for IPv6. DNS uses both TCP and UDP. Standard DNS messages use UDP. TCP is used for DNS messages greater than 512 bytes. The port used is 53.
 
@@ -35,7 +35,7 @@ You can also configure the default domain name with the command `ip domain name`
 
 The command to view the DNS table on a router is `show hosts`.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 38 Flashcards - DNS.apkg" %}
 
