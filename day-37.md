@@ -27,7 +27,7 @@ Manually configuring the time on each device is not scalable and takes time. Fur
 
 A reference clock is usually a very accurate time device like an atomic clock or a GPS clock. Reference clocks are stratum 0 within the NTP hierarchy. NTP servers directly connected to reference clocks are stratum 1 (**primary servers**). NTP servers with a stratum higher than 1 are called **secondary servers**.
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt="ntp heirarchy" width="563"><figcaption><p>NTP Hierarchy</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="ntp heirarchy" width="563"><figcaption><p>NTP Hierarchy</p></figcaption></figure>
 
 Stratum 15 is the maximum. Anything above is considered unreliable. Devices can also peer with devices at the same stratum to provide more accurate time. This is called **symmetric active** mode. An NTP client can sync to multiple NTP servers.&#x20;
 
@@ -54,7 +54,7 @@ NTP authentication can be configured but it is optional. It allows NTP clients t
 3. Specify the trusted key - `ntp trusted-key` followed by the key number.
 4. Specify the key which is needed to use for the server - `ntp server` followed by the server IP address, `key`, and the key number. This command is not needed on the server itself. The same can be applied to peers as well.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 37 Flashcards - NTP.apkg" %}
 
