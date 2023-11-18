@@ -22,7 +22,7 @@ IPv6 header is much simpler than IPv4's because it has a fixed size of 40 bytes.
 
 An IPv6 **solicited-node multicast address** is calculated from a unicast address. It begins with `ff02::1:ff` and adds the last 6 hex digits of the unicast address.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="solicited-node multicast address" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="solicited-node multicast address" width="563"><figcaption></figcaption></figure>
 
 **NDP** (Neighbour Discovery Protocol) is a protocol used with IPv6. One of its functions is to replace ARP for IPv6. It uses ICMPv6 and solicited-node multicast addresses to learn the MAC addresses of other hosts. The analogue of the ARP table for IPv6 is the **IPv6 Neighbour Table**. There are two message types used:
 

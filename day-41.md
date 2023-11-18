@@ -8,7 +8,7 @@ description: Syslog
 
 #### Message format
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="message format" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="message format" width="563"><figcaption></figcaption></figure>
 
 * A sequence number indicates the sequence of messages. May or may not be displayed, depending on the device's configuration. To configure the sequence number to be displayed, enter the command `service sequence-numbers` from the global config mode.
 * A timestamp indicates the time the message is generated. May or may not be displayed, depending on the device's configuration. To configure the timestamp, enter the command `service timestamps log` followed by `datetime` - for timestamp with date and time, `uptime` - for timestamp with system uptime.
