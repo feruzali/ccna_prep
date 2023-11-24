@@ -16,7 +16,7 @@ DHCP servers lease IP addresses to clients. These leases are usually not permane
 
 Then, the command to get a new address is `ipconfig /renew`. Here is the process of getting an IP address from a DHCP server.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="getting an ip address from dhcp" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="getting an ip address from dhcp" width="563"><figcaption></figcaption></figure>
 
 * DHCP **Discover** message is broadcast.&#x20;
 * DHCP **Offer** message is broadcast or unicast depending on the client's request.&#x20;

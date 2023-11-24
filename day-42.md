@@ -46,7 +46,7 @@ To view information about the current SSH configuration, enter the command `show
 
 To enable and use SSH, RSA public and private key pair must be generated first. The keys are used for data encryption/decryption, authentication, etc. The **FQDN** (Fully Qualified Domain Name) of the device is used to name the RSA keys. to configure the domain name, use the command `ip domain name` followed by the domain name. Then, to generate the keys, use the command `crypto key generate rsa` followed by the length. The length must be 768 bits or greater for SSHv2. SSH is configured the same as Telnet. To choose the version of SSH, from the global config mode enter the command `ip ssh version` followed by the version number.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 42 Flashcards - SSH.apkg" %}
 

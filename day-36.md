@@ -37,7 +37,7 @@ The commands and outputs are very similar to CDP.&#x20;
 * For LLDP-enabled interfaces - `show lldp interface`.
 * For LLDP neighbours - `show lldp neighbors` or `show lldp neighbors detail`, for the specified neighbour - `show lldp entry` followed by the hostname.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="show lldp neighbors command" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="show lldp neighbors command" width="563"><figcaption></figcaption></figure>
 
 #### Configuration
 

@@ -48,3 +48,5 @@
 * [Day 45](day-45.md)
 * [Day 46](day-46.md)
 * [Day 47](day-47.md)
+* [Day 48](day-48.md)
+* [Day 49](day-49.md)
