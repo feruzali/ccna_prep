@@ -43,7 +43,7 @@ A file system is a way of controlling how data is stored and retrieved. To view 
 
 To upgrade Cisco IOS, enter the global config mode and use the command boot system followed by the file path. Then, save the configuration to the memory and enter `reload`. Finally, to delete the old IOS file, use the command `delete` followed by the file path.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 43 Flashcards - FTP_TFTP.apkg" %}
 
