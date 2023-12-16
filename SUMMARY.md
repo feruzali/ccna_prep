@@ -52,3 +52,4 @@
 * [Day 49](day-49.md)
 * [Day 50](day-50.md)
 * [Day 51](day-51.md)
+* [Day 52](day-52.md)
