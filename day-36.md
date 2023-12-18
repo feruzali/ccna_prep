@@ -14,7 +14,7 @@ Layer 2 discovery protocols (CDP and LLDP) share information with and discover i
 
 To see CDP configurations, enter the `show cdp` command, for CDP traffic - `show cdp traffic`, and for CDP information about each interface - `show cdp interface`. To see the CDP neighbours, enter the command `show cdp neighbors` or `show cdp neighbors detail`, for the specified neighbour - `show cdp entry` followed by the hostname.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="show cdp neighbors command" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="show cdp neighbors command" width="563"><figcaption></figcaption></figure>
 
 #### Configuration
 
@@ -37,7 +37,7 @@ The commands and outputs are very similar to CDP.&#x20;
 * For LLDP-enabled interfaces - `show lldp interface`.
 * For LLDP neighbours - `show lldp neighbors` or `show lldp neighbors detail`, for the specified neighbour - `show lldp entry` followed by the hostname.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="show lldp neighbors command" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="show lldp neighbors command" width="563"><figcaption></figcaption></figure>
 
 #### Configuration
 
