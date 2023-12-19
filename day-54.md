@@ -10,7 +10,7 @@ Besides networking devices, Cisco also offers **UCS** (Unified Computing System)
 
 Before virtualization, there was a one-to-one relationship between a physical and an operation system. In that OS, apps providing services such as a web server, email server, etc. would run. One physical server would be used for the web server, one for the email server, one for the database server, etc. This is inefficient because each physical server is expensive and takes up space, power, etc. and the resources on each physical server are under-used.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt="server&#x27;s structure" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="server&#x27;s structure" width="375"><figcaption></figcaption></figure>
 
 ### Virtualization
 
@@ -23,13 +23,13 @@ Virtualization allows us to break the one-to-one relationship of hardware to OS,
 
 The type of hypervisor which runs directly on top of the hardware is called a **Type 1** hypervisor (aka **bare-metal hypervisor**/**native hypervisor**), e.g. VMware ESXi or Microsoft Hyper-V. It is used in data center environments.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt="type 1 hypervisor" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="type 1 hypervisor" width="375"><figcaption></figcaption></figure>
 
 **Type 2** hypervisors (aka **hosted hypervisor**) run as a program on an OS like a regular program, e.g. VMware Workstation or Oracle VirtualBox. The OS running directly on the hardware is called the **Host OS**, and the OS running in a VM is called a **Guest OS**. Type 2 hypervisors are usually used on personal-use devices.
 
 To connect VMs to the network, a virtual switch running on the hypervisor is used. Virtual switches act the same as regular switches.
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt="vSwitch demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="vSwitch demo" width="563"><figcaption></figcaption></figure>
 
 ### Cloud
 
@@ -54,7 +54,7 @@ In cloud computing, everything is provided on a service model. Three service mod
 * Platform as a Service
 * Infrastructure as a Service
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt="service model" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="service model" width="563"><figcaption></figcaption></figure>
 
 The four deployment models of cloud computing (all may exist on or off premises):
 
@@ -65,7 +65,7 @@ The four deployment models of cloud computing (all may exist on or off premises)
 
 The ways to connect to cloud resources:
 
-<figure><img src=".gitbook/assets/image (5) (1).png" alt="connection to cloud" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="connection to cloud" width="563"><figcaption></figcaption></figure>
 
 ### Containers
 

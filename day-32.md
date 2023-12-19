@@ -14,7 +14,7 @@ Modified EUI-64 (Extended Unique Identifier) is a method of converting a MAC add
 
 E.g. `1234:5678:90ab` becomes `1034:56ff:ffe78:90ab`. Here are a few more examples:
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1).png" alt="eui-64 process example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="eui-64 process example" width="563"><figcaption></figcaption></figure>
 
 To configure the EUI-64, just add `eui-64` after the network prefix when configuring an IPv6 address on the interface.
 

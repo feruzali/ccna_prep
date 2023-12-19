@@ -57,7 +57,7 @@ Wi-Fi uses two main bands (frequency ranges): **2.4 GHz** and **5 GHz**. The 2.4
 
 Each band is divided up into multiple channels. Devices are configured to transmit and receive traffic on one or more of these channels. The 2.4 GHz band is divided into several channels, each with a 22 MHz range but channels may overlap each other. In a small wireless LAN with only a single AP, any channel can be used. However, in large WLANs with multiple APs, adjacent APs mustn't use overlapping channels to avoid interference. In the 2.4 GHz band, it's recommended to use channels **1, 6, and 11**. The 5 GHz band consists of non-overlapping channels, so it's much easier to avoid interference. To provide full coverage of an area without band interference, a honeycomb pattern might be used. Each color in the picture below represents a different channel.
 
-<figure><img src=".gitbook/assets/image.png" alt="honeycomb pattern" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt="honeycomb pattern" width="375"><figcaption></figcaption></figure>
 
 Below is a table with different 802.11 standards:
 
@@ -93,14 +93,14 @@ APs can operate in additional modes:
 *   **Repeater** - can be used to extend the range of BSS. The repeater simply retransmits any signal it receives from the AP. A repeater with a single radio must operate on the same channel as the AP but this can reduce the overall throughput on the channel. A repeater with two radios can solve this issue.\
 
 
-    <figure><img src=".gitbook/assets/image (2).png" alt="repeater demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt="repeater demo" width="563"><figcaption></figcaption></figure>
 *   **WGB** (Workgroup Bridge) - operates as a wireless client of another AP and can be used to connect wired devices to the wireless network. uWGB (universal WGB) is an 802.11 standard that allows one device to be bridged to the wireless network. WGB is a Cisco-proprietary version of the 802.11 standard that allows multiple wired clients to be bridged to the wireless network.\
 
 
-    <figure><img src=".gitbook/assets/image (3).png" alt="WGB demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt="WGB demo" width="563"><figcaption></figcaption></figure>
 *   **Outdoor bridge** can be used to connect networks over long distances without a physical cable connecting them. The APs use specialized antennas that focus most of the signal power in one direction which allows the wireless connection to be made over longer distances than normally possible. The connection can be point-to-point or point-to-multipoint.\
 
 
-    <figure><img src=".gitbook/assets/image (4).png" alt="outdoor bridge demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1).png" alt="outdoor bridge demo" width="563"><figcaption></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 55 Flashcards - Wireless Fundamentals.apkg" %}

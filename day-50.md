@@ -37,7 +37,7 @@ To configure DHCP snooping from the global config mode:
 
 DHCP snooping can limit the rate at which DHCP messages are allowed to enter an interface. If the rate of DHCP messages crosses the limit, the interface is put on err-disabled mode. The interface can then be re-enabled manually or automatically with errdisable recovery. To configure the rate limit on an interface, use the command `ip dhcp snooping limit rate` followed by the number (of messages per second).
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="Summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="Summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 50 Flashcards - DHCP Snooping.apkg" %}
 

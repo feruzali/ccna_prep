@@ -30,7 +30,7 @@ The functions of the Distribution Layer:
 * typically is the border between Layer 2 and Layer 3
 * connects to services (Internet, WAN, etc.)
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="2-tier LAN example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt="2-tier LAN example" width="563"><figcaption></figcaption></figure>
 
 ### Three-Tier LAN
 
@@ -44,13 +44,13 @@ The function of the Core Layer:
 * connections are all Layer 3, no spanning tree
 * should maintain connectivity throughout the LAN even if devices fail
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="3-tier LAN example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt="3-tier LAN example" width="563"><figcaption></figcaption></figure>
 
 ### Spine-Leaf Architecture
 
 **Data centers** are dedicated spaces/buildings used to store computer systems like servers and network devices. Traditional data center designs used a three-tier architecture. This worked well when most of the traffic in data centers was North-South. With the precedence of virtual servers, applications are often deployed in a distributed manner (across multiple physical servers) which increases the amount of East-West traffic.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt="north-south, east-west traffic " width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt="north-south, east-west traffic " width="563"><figcaption></figcaption></figure>
 
 The traditional three-tier architecture led to bottlenecks in bandwidth and variability in server-to-server latency. To solve this, Spine-Leaf architecture (aka Clos architecture) was developed.&#x20;
 
@@ -63,13 +63,13 @@ The rules of Spine-Leaf architecture:
 
 The path of traffic is randomly chosen to balance the traffic load among the Spine switches. Each server is separated by the same number of hops (except those connected to the same Leaf). It provides consistent latency for East-West traffic.
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt="Spine-Leaf architecture demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt="Spine-Leaf architecture demo" width="563"><figcaption></figcaption></figure>
 
 ### SOHO
 
 **SOHO** (Small Office/Home Office) is the office of a small company or a home with few devices. SOHO networks don't have complex needs, so all networking functions are typically provided by a single device, often called a **home router** or **wireless router**. This one device can serve as a router, switch, firewall, wireless access point, and modem at the same time.
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1).png" alt="SOHO example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1).png" alt="SOHO example" width="563"><figcaption></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 52  Flashcards - LAN Architectures.apkg" %}
 
