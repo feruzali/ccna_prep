@@ -38,7 +38,7 @@ Layer 2 switches don't perform packet routing. However, you can assign an IP add
 
 **SSH** (Secure Shell) was developed to replace less secure protocols like Telnet. There are 2 versions of SSH: SSHv1 and SSHv2. If a device supports both versions, it is said to run **version 1.99**. SSH provides some security features like data encryption and authentication. The SSH server listens on TCP port 22. To check whether the device supports SSH, enter the command `show version`. IOS images that support SSH have `K9` in their name.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="show version demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="show version demo" width="563"><figcaption></figcaption></figure>
 
 Cisco exports **NPE** (No Payload Encryption) IOS images to countries that have restrictions on encryption technologies. NPE IOS images do not support cryptographic features like SSH.
 
@@ -46,7 +46,7 @@ To view information about the current SSH configuration, enter the command `show
 
 To enable and use SSH, RSA public and private key pair must be generated first. The keys are used for data encryption/decryption, authentication, etc. The **FQDN** (Fully Qualified Domain Name) of the device is used to name the RSA keys. to configure the domain name, use the command `ip domain name` followed by the domain name. Then, to generate the keys, use the command `crypto key generate rsa` followed by the length. The length must be 768 bits or greater for SSHv2. SSH is configured the same as Telnet. To choose the version of SSH, from the global config mode enter the command `ip ssh version` followed by the version number.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 42 Flashcards - SSH.apkg" %}
 

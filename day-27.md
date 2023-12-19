@@ -16,7 +16,7 @@ The default hello timer is 10 seconds on an Ethernet connection. Hello messages 
 
 #### Down
 
-<figure><img src=".gitbook/assets/image (12).png" alt="down state" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt="down state" width="563"><figcaption></figcaption></figure>
 
 * OSPF is activated on R1's `G0/0` interface
 * It sends an OSPF Hello message to `224.0.0.5`
@@ -24,7 +24,7 @@ The default hello timer is 10 seconds on an Ethernet connection. Hello messages 
 
 #### &#x20;Init
 
-<figure><img src=".gitbook/assets/image (13).png" alt="init state" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1).png" alt="init state" width="563"><figcaption></figcaption></figure>
 
 * When R2 receives the Hello packet, it adds an entry for R1
 * Hello packet is received but R2's ID is not in the Hello packet

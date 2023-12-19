@@ -40,7 +40,7 @@ The active router is determined in this order:
 
 Here is a chart summarizing the three protocols covered above.
 
-<figure><img src=".gitbook/assets/image (11).png" alt="HSRP protocols summary" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1).png" alt="HSRP protocols summary" width="563"><figcaption></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 29 Flashcards - FHRPs.apkg" %}
 

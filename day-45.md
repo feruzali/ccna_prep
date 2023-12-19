@@ -21,7 +21,7 @@ To configure dynamic NAT on Cisco IOS:
 
 **PAT** (Port Address Translation), aka **NAT overload**, translates both the IP address and the port number if necessary. By using a unique port number for each communication flow, a single public IP address can be used by many different internal hosts. The router keeps track of which inside local address is using which inside global address and port.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="pat demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="pat demo" width="563"><figcaption></figcaption></figure>
 
 #### Configuration
 
@@ -29,7 +29,7 @@ PAT is configured the same as dynamic NAT but the keyword `overload` is added at
 
 Another way to configure PAT is to configure the router to use its own public IP address when translating the source IP of packets. First, outside and inside interfaces must be defined. Then an ACL must be created to define the traffic that should be translated. Lastly, PAT is configured by mapping the ACL to the interface and enabling `overload`, e.g. `ip nat inside source list 1 interface g0/0 overload`.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 45 Flashcards - NAT (Part 2).apkg" %}
 
