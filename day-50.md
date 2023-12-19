@@ -6,7 +6,7 @@ description: DHCP Snooping
 
 DHCP Snooping is a security feature of switches that is used to filter DHCP messages received on untrusted ports. All ports are untrusted by default.&#x20;
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1).png" alt="DHCP Snooping demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1).png" alt="DHCP Snooping demo" width="563"><figcaption></figcaption></figure>
 
 DHCP Snooping only filters DHCP messages, non-DHCP messages aren't affected. When it filters messages, it differentiates between DHCP Server messages and DHCP Client messages.&#x20;
 

@@ -71,7 +71,7 @@ The ways to connect to cloud resources:
 
 **Containers** are software packages that contain an App and all dependencies for the contained app to run. Containers run on a **Container Engine** (ie. Docker Engine). The container engine runs on a host OS.  Containers are lightweight and include only the dependencies required to run the specific app. A **Container Orchestrator** (ie. Kubernetes) is a software platform for automating the deployment, management, scaling, etc. In small numbers, manual operation is possible but large-scale systems can require thousands of containers. **Microservice Architecture** is an approach to software architecture that divides a larger solution into smaller parts (microservices). Those microservices all run in containers that can be orchestrated by a container orchestrator.
 
-<figure><img src=".gitbook/assets/image (7) (1).png" alt="containers example" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1).png" alt="containers example" width="375"><figcaption></figcaption></figure>
 
 #### VMs vs Containers
 
@@ -85,7 +85,7 @@ The ways to connect to cloud resources:
 
 **VRF** (Virtual Routing and Forwarding) is used to divide a single router into multiple virtual routers, similar to VLANs. It does this by allowing a router to build multiple separate routing tables. Layer 3 interfaces and routes are configured to be in a specific VRF. Traffic in one VRF cannot be forwarded out of an interface in another VRF. This is **VRF-lite** (VRF without MPLS). VRF is commonly used to facilitate MPLS. VRF-lite is commonly used by service providers to allow one device to carry traffic from multiple customers. Each customer's traffic is isolated and their IP addresses can overlap without any issues.
 
-<figure><img src=".gitbook/assets/image (8) (1).png" alt="VRF demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1).png" alt="VRF demo" width="563"><figcaption></figcaption></figure>
 
 To configure VRF on a router, first create a VRF with the command `ip vrf` followed by a name. Then assign interfaces to VRFs with the command `ip vrf forwarding` followed by the VRF name in the interface config mode. If an interface has an IP address configured, it is removed when the interface is assigned to a VRF. To view the routing table of VRF, use the command `show ip route vrf` followed by the VRF name.
 

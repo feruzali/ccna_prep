@@ -6,7 +6,7 @@ description: WAN Architectures
 
 A **WAN** (Wide Area Network) is a network that extends over a large geographical area. WANs are used to connect geographically separate LANs.&#x20;
 
-<figure><img src=".gitbook/assets/image (9) (1).png" alt="WAN example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1).png" alt="WAN example" width="563"><figcaption></figcaption></figure>
 
 ### Leased Lines
 
@@ -79,7 +79,7 @@ Whereas site-to-site VPNs are used to make a point-to-point connection between t
 
 VPN client software is installed on end devices. These end devices then form secure tunnels to one of the company's routers/firewalls acting as a TLS server. This allows the end users to securely access resources on the company's internal network without being directly connected to the company network.&#x20;
 
-<figure><img src=".gitbook/assets/image (8) (1) (1).png" alt="Remote-access VPN demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1).png" alt="Remote-access VPN demo" width="563"><figcaption></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 53 Flashcards - WAN Architectures.apkg" %}
 

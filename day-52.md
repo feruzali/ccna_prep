@@ -10,7 +10,7 @@ description: LAN Architectures
 * **Full Mesh** - when all devices are connected to each other.
 * **Partial Mesh** - when some devices are connected to each other but not all.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1).png" alt="types of network topology" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1).png" alt="types of network topology" width="563"><figcaption></figcaption></figure>
 
 ### Two-Tier LAN
 

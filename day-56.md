@@ -4,7 +4,7 @@ description: Wireless Architectures
 
 # Day 56
 
-<figure><img src=".gitbook/assets/image.png" alt="802.11 frame"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt="802.11 frame"><figcaption></figcaption></figure>
 
 802.11 frames have a different format than 802.3 Ethernet frames. Depending on the 802.11 version and the message type, some of the fields might not be present in the frame.&#x20;
 
@@ -42,13 +42,13 @@ There are 3 main wireless AP deployment methods:
 
 **Autonomous AP**s - self-contained systems that don't rely on a WLC. They are configured individually by CLI (telnet/SSH, console cable) or GUI (web browser). An IP address for remote management should be configured. The RF parameters must be manually configured (transmit power, channel, etc.). Security policies are handled individually by each AP. QoS rules are configured individually on each AP. There is no central monitoring or management of APs. Autonomous APs connect to the wired network with a trunk link. Data traffic from wireless clients has a very direct path to the wired network or other wireless clients connected to the same AP. Each VLAN has to stretch across the entire network. They can be used in small networks but not in medium to large networks.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="autonomous APs" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt="autonomous APs" width="563"><figcaption></figcaption></figure>
 
 #### Lightweight APs
 
 **Lightweight AP**s - they handle real-time operations like transmitting/receiving RF traffic, encryption/decryption of traffic, sending out beacons/probes, etc. Other functions are carried out by a **WLC** (Wireless LAN Controller), e.g. RF management, security/QoS management, client authentication, client association/roaming management, etc. This is called **split-MAC architecture**. The WLC is also used to centrally configure the lightweight APs and can be located in the same or a different subnet/VLAN. The WLC and the lightweight APs authenticate each other using digital certificates installed on each device (X.509 standard certificates). This ensures that only authorized APs can join the network. They use the **CAPWAP** (Control And Provisioning Of Wireless Access Points) protocol to communicate. Two tunnels are created between each AP and the WLC: **control tunnel** (UDP port 5246) -  used to configure the APs, all traffic is encrypted by default, **data tunnel** (UDP port 5247) - all traffic from wireless clients is sent through this tunnel to the WLC, traffic is not encrypted by default, but **DTLS** (Datagram Transport Layer Security) protocol can be used for encryption. Because all traffic from wireless clients is tunnelled to the WLC with CAPWAP, APs connected to switch access ports, not trunk ports. However, a trunk link is needed between the WLC and the wired network because the data is sent to the WLC via a tunnel and if the destination is outside the LAN, the WLC forwards it to the wired network.
 
-<figure><img src=".gitbook/assets/image (3).png" alt="lightweight APs" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt="lightweight APs" width="563"><figcaption></figcaption></figure>
 
 Lightweight APs can be configured to operate in various modes:
 
@@ -65,7 +65,7 @@ Lightweight APs can be configured to operate in various modes:
 
 **Cloud-Based AP** architecture is in between autonomous AP and split-MAC architecture - autonomous APs that are centrally managed in the cloud. Cisco Meraki is a popular cloud-based Wi-Fi solution. The Meraki dashboard can be used to configure APs, monitor the network, generate performance reports, etc. However, data traffic is not sent to the cloud. It is sent directly to the wired network.&#x20;
 
-<figure><img src=".gitbook/assets/image (4).png" alt="Cloud-based APs" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt="Cloud-based APs" width="563"><figcaption></figcaption></figure>
 
 ### WLC Deployments
 

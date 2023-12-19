@@ -18,23 +18,23 @@ The factors which affect signal transmission range:
 *   **Absorption** - happens when a wireless signal passes through a material and is converted into heat weakening the original signal.\
 
 
-    <figure><img src=".gitbook/assets/image (6).png" alt="absorption " width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6) (1).png" alt="absorption " width="563"><figcaption></figcaption></figure>
 *   **Reflection** - happens when a signal bounces off of a material like metal.\
 
 
-    <figure><img src=".gitbook/assets/image (7).png" alt="reflection" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (7) (1).png" alt="reflection" width="563"><figcaption></figcaption></figure>
 *   **Refraction** - happens when a wave is bent when entering a medium where the signal travels at a different speed.\
 
 
-    <figure><img src=".gitbook/assets/image (8).png" alt="refraction" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (8) (1).png" alt="refraction" width="563"><figcaption></figcaption></figure>
 *   **Diffraction** - happens when a wave encounters an obstacle and travels around it. This can result in blind spots behind the obstacle.\
 
 
-    <figure><img src=".gitbook/assets/image (9).png" alt="diffraction" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (9) (1).png" alt="diffraction" width="563"><figcaption></figcaption></figure>
 *   **Scattering** - happens when a material causes a signal to scatter in all directions. Dust, smog, uneven surfaces, etc. can be a cause of scattering.\
 
 
-    <figure><img src=".gitbook/assets/image (10).png" alt="scattering" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (10) (1).png" alt="scattering" width="563"><figcaption></figcaption></figure>
 
 ### Radio Frequency
 
@@ -57,7 +57,7 @@ Wi-Fi uses two main bands (frequency ranges): **2.4 GHz** and **5 GHz**. The 2.4
 
 Each band is divided up into multiple channels. Devices are configured to transmit and receive traffic on one or more of these channels. The 2.4 GHz band is divided into several channels, each with a 22 MHz range but channels may overlap each other. In a small wireless LAN with only a single AP, any channel can be used. However, in large WLANs with multiple APs, adjacent APs mustn't use overlapping channels to avoid interference. In the 2.4 GHz band, it's recommended to use channels **1, 6, and 11**. The 5 GHz band consists of non-overlapping channels, so it's much easier to avoid interference. To provide full coverage of an area without band interference, a honeycomb pattern might be used. Each color in the picture below represents a different channel.
 
-<figure><img src=".gitbook/assets/image (5).png" alt="honeycomb pattern" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt="honeycomb pattern" width="375"><figcaption></figcaption></figure>
 
 Below is a table with different 802.11 standards:
 
