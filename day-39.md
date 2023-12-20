@@ -10,13 +10,13 @@ description: DHCP
 
 DHCP servers lease IP addresses to clients. These leases are usually not permanent, and the client must give up the address at the end of the lease. The command to release (give up) the IP address on Windows is `ipconfig /release`. DHCP Release message is unicast.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="dhcp release demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="dhcp release demo" width="563"><figcaption></figcaption></figure>
 
 #### DORA
 
 Then, the command to get a new address is `ipconfig /renew`. Here is the process of getting an IP address from a DHCP server.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="getting an ip address from dhcp" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="getting an ip address from dhcp" width="563"><figcaption></figcaption></figure>
 
 * DHCP **Discover** message is broadcast.&#x20;
 * DHCP **Offer** message is broadcast or unicast depending on the client's request.&#x20;
@@ -27,7 +27,7 @@ Then, the command to get a new address is `ipconfig /renew`. Here is the process
 
 Large enterprises often choose to use a centralized DHCP server. If the server is centralized, it can't receive the DHCP clients' broadcast DHCP messages. In such cases, a router is configured to act as a **DHCP relay agent**. The router forwards the clients' broadcast DHCP messages to the remote DHCP server as unicast messages. Here is how it works.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="dhcp relay agent demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="dhcp relay agent demo" width="563"><figcaption></figcaption></figure>
 
 #### Cisco IOS
 
@@ -47,7 +47,7 @@ To configure a router as a **DHCP relay agent**, from the interface which is con
 
 Even though it is rare, to configure a router as a **DHCP client**, enter the command `ip address dhcp` from the interface config mode.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="summary" width="563"><figcaption><p>Summary</p></figcaption></figure>
 
 {% file src=".gitbook/assets/Day 39 Flashcards - DHCP.apkg" %}
 

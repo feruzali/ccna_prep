@@ -14,7 +14,7 @@ Modified EUI-64 (Extended Unique Identifier) is a method of converting a MAC add
 
 E.g. `1234:5678:90ab` becomes `1034:56ff:ffe78:90ab`. Here are a few more examples:
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="eui-64 process example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="eui-64 process example" width="563"><figcaption></figcaption></figure>
 
 To configure the EUI-64, just add `eui-64` after the network prefix when configuring an IPv6 address on the interface.
 
@@ -36,11 +36,11 @@ Link-local IPv6 addresses are automatically generated on an IPv6-enabled interfa
 
 Multicast addresses are one-to-many communication addresses. IPv6 uses range `ff00::/8` for multicast. IPv6 doesn't use broadcast. Here is a chart of some important multicast addresses:
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="important multicast addresses" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="important multicast addresses" width="563"><figcaption></figcaption></figure>
 
 IPv6 defines multiple multicast **scopes** which indicate how far the packet should be forwarded:
 
-<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1).png" alt="multicast scopes" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="multicast scopes" width="563"><figcaption></figcaption></figure>
 
 * **Interface-local** (`ff01`) - the packet doesn't leave the local device. It can be used to send traffic to a service within the device itself.
 * **Link-local** (`ff02`) - the packet remains in the local subnet and is not routed between subnets.

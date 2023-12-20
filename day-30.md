@@ -44,7 +44,7 @@ Before sending the data, TCP first establishes a connection by using a 3-way han
 
 #### 4-way Handshake
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1).png" alt="4-way handshake" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="4-way handshake" width="563"><figcaption></figcaption></figure>
 
 To terminate the connection, TCP uses a 4-way handshake. The client sends a TCP segment with a FIN flag set. The server then acknowledges it with an ACK flag set and sends its own TCP segment with a FIN flag. Finally, the client acknowledges it and the connection is terminated.
 
