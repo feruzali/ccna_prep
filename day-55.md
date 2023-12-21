@@ -93,11 +93,11 @@ APs can operate in additional modes:
 *   **Repeater** - can be used to extend the range of BSS. The repeater simply retransmits any signal it receives from the AP. A repeater with a single radio must operate on the same channel as the AP but this can reduce the overall throughput on the channel. A repeater with two radios can solve this issue.\
 
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="repeater demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="repeater demo" width="563"><figcaption></figcaption></figure>
 *   **WGB** (Workgroup Bridge) - operates as a wireless client of another AP and can be used to connect wired devices to the wireless network. uWGB (universal WGB) is an 802.11 standard that allows one device to be bridged to the wireless network. WGB is a Cisco-proprietary version of the 802.11 standard that allows multiple wired clients to be bridged to the wireless network.\
 
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="WGB demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt="WGB demo" width="563"><figcaption></figcaption></figure>
 *   **Outdoor bridge** can be used to connect networks over long distances without a physical cable connecting them. The APs use specialized antennas that focus most of the signal power in one direction which allows the wireless connection to be made over longer distances than normally possible. The connection can be point-to-point or point-to-multipoint.\
 
 

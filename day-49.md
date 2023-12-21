@@ -8,7 +8,7 @@ description: Port Security
 
 Port Security is a security feature of Cisco switches. It allows to control which source MAC addresses are allowed to enter the switchport. If an unauthorised source MAC address enters the port, the action is taken. The default action is to place the interface in an err-disabled state.&#x20;
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="port security demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="port security demo" width="563"><figcaption></figcaption></figure>
 
 When port security is enabled on an interface with the default settings, one MAC address is allowed. The allowed MAC address can be configured manually. If not configured, the switch allows the first source MAC address that enters the interface. The number of MAC addresses allowed on an interface can also be configured. A combination of manually configured MAC addresses and dynamically learned addresses is also possible.
 

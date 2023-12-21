@@ -6,13 +6,13 @@ description: Wireless Configuration
 
 Here is the network topology which will be used to configure the devices:
 
-<figure><img src=".gitbook/assets/image (1).png" alt="network topology" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="network topology" width="563"><figcaption></figcaption></figure>
 
 The WLC connects to the switch via a LAG (Link Aggregation Group). WLCs only support static LAG, no PAgP or LACP.
 
 ### Switch Configuration
 
-<figure><img src=".gitbook/assets/image (2).png" alt="switch config" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
 
 1. The VLANs are configured
 2. Access ports are configured with PortFast enabled. WLC's GUI can be only accessed via the network using HTTP/HTTPS.
@@ -20,7 +20,7 @@ The WLC connects to the switch via a LAG (Link Aggregation Group). WLCs only sup
 4.  The PortChannel interface is configured. Allowed VLANs are specified.\
 
 
-    <figure><img src=".gitbook/assets/image (3).png" alt="switch config" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
 5. SVIs are configured for each VLAN.
 6. DHCP pools are configured for each VLAN. Option 43 can be used to tell the APs the IP address of their WLC. This is not necessary in our situation since the APs and WLC are in the same subnet. The WLC can hear the APs broadcast CAPWAP discovery messages.
 7. NTP server is specified.
