@@ -6,7 +6,7 @@ description: JSON, XML, & YAML
 
 **Data serialization** is the process of converting data into a serialized format/structure that can be stored or transmitted and reconstructed later. This allows the data to be communicated between applications in a way both applications understand. Data serialization languages allow us to represent variables with text. **Variables** are containers that store values.&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt="data serialization demo" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt="data serialization demo" width="563"><figcaption></figcaption></figure>
 
 ### JSON
 
@@ -24,11 +24,11 @@ JSON structured data types:
 *   **Object** - an unordered list of key-value pairs (variables). Objects are surrounded by curly brackets (`{}`). The **key** is a string and the **value** is any valid JSON data type. The key and value are separated by a colon (`:`). If there are multiple key-value pairs, each pair is separated by a comma (`,`). Objects within objects are called **nested objects**.\
 
 
-    <figure><img src=".gitbook/assets/image (1).png" alt="object example" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="object example" width="563"><figcaption></figcaption></figure>
 *   **Array** - series of values separated by commas. The values don't have to be the same data type.\
 
 
-    <figure><img src=".gitbook/assets/image (2).png" alt="array example" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt="array example" width="563"><figcaption></figcaption></figure>
 
 ### XML
 

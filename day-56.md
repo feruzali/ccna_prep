@@ -4,7 +4,7 @@ description: Wireless Architectures
 
 # Day 56
 
-<figure><img src=".gitbook/assets/image (5) (1).png" alt="802.11 frame"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="802.11 frame"><figcaption></figcaption></figure>
 
 802.11 frames have a different format than 802.3 Ethernet frames. Depending on the 802.11 version and the message type, some of the fields might not be present in the frame.&#x20;
 
@@ -42,7 +42,7 @@ There are 3 main wireless AP deployment methods:
 
 **Autonomous AP**s - self-contained systems that don't rely on a WLC. They are configured individually by CLI (telnet/SSH, console cable) or GUI (web browser). An IP address for remote management should be configured. The RF parameters must be manually configured (transmit power, channel, etc.). Security policies are handled individually by each AP. QoS rules are configured individually on each AP. There is no central monitoring or management of APs. Autonomous APs connect to the wired network with a trunk link. Data traffic from wireless clients has a very direct path to the wired network or other wireless clients connected to the same AP. Each VLAN has to stretch across the entire network. They can be used in small networks but not in medium to large networks.
 
-<figure><img src=".gitbook/assets/image (6) (1).png" alt="autonomous APs" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1).png" alt="autonomous APs" width="563"><figcaption></figcaption></figure>
 
 #### Lightweight APs
 

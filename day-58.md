@@ -6,13 +6,13 @@ description: Wireless Configuration
 
 Here is the network topology which will be used to configure the devices:
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt="network topology" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="network topology" width="563"><figcaption></figcaption></figure>
 
 The WLC connects to the switch via a LAG (Link Aggregation Group). WLCs only support static LAG, no PAgP or LACP.
 
 ### Switch Configuration
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
 
 1. The VLANs are configured
 2. Access ports are configured with PortFast enabled. WLC's GUI can be only accessed via the network using HTTP/HTTPS.
@@ -20,22 +20,22 @@ The WLC connects to the switch via a LAG (Link Aggregation Group). WLCs only sup
 4.  The PortChannel interface is configured. Allowed VLANs are specified.\
 
 
-    <figure><img src=".gitbook/assets/image (3) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="switch config" width="563"><figcaption></figcaption></figure>
 5. SVIs are configured for each VLAN.
 6. DHCP pools are configured for each VLAN. Option 43 can be used to tell the APs the IP address of their WLC. This is not necessary in our situation since the APs and WLC are in the same subnet. The WLC can hear the APs broadcast CAPWAP discovery messages.
 7. NTP server is specified.
 
 ### WLC Setup
 
-<figure><img src=".gitbook/assets/image (4).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
 
 Autoinstall uses a TFTP server to get the configuration, it is not needed in this case. So, just pressing enter skips it. Then, WLC username and password configuration are done. Then, further network configuration is done.
 
-<figure><img src=".gitbook/assets/image (5).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
 
 **Virtual Gateway IP** is used when the WLC is communicating directly with wireless clients (ie relaying DHCP requests). **Multicast IP** is used when forwarding traffic to its APs. **Mobility/RF Group Name** is used when you have multiple WLCs and you want them to work together. We will change the WLAN security policy to PSK so we don't need to configure a RADIUS server. You have to be careful when entering a Country Code because if the regulatory domain of the country specified in the WLC configuration doesn't match the regulatory domain of the AP, the AP won't be able to join the WLC. The regulatory domain of the device is specified on the back side of the device.
 
-<figure><img src=".gitbook/assets/image (6).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt="WLC init" width="563"><figcaption></figcaption></figure>
 
 Finally, the wireless network protocols are enabled and the NTP server is specified if exists.
 

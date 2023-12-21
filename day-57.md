@@ -19,22 +19,22 @@ All clients must be authenticated before they can associate with an AP. In corpo
 *   **LEAP** (Lightweight EAP) - developed by Cisco as an improvement over WAP. Clients must provide a username and password to authenticate. In addition, mutual authentication is provided by both the client and server sending a challenge phrase to each other. Dynamic WEP keys (frequently changing WEP keys) are used. LEAP is considered vulnerable.\
 
 
-    <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="LEAP auth demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="LEAP auth demo" width="563"><figcaption></figcaption></figure>
 *   **EAP-FAST** (EAP Flexible Authentication via Secure Tunneling) - developed by Cisco. Consists of 3 phases:
 
     1. **PAC** (Protected Access Credential) is generated and passed from the server to the client.
     2. A secure TLS tunnel is established between the client and the authentication server.
     3. Inside the secure TLS tunnel, the client and server communicate further to authenticate the client.
 
-    <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="EAP-FAST auth demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="EAP-FAST auth demo" width="563"><figcaption></figcaption></figure>
 *   **PEAP** (Protected EAP) - also establishes a secure TLS tunnel but instead of PAC, the server has a digital certificate. The certificate is used to authenticate the server and establish a TLS tunnel. The client must be authenticated within the secure tunnel, ie using MS-CHAP (Microsoft Challenge-Handshake Authentication Protocol).\
 
 
-    <figure><img src=".gitbook/assets/image (3) (1) (1).png" alt="PEAP auth demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt="PEAP auth demo" width="563"><figcaption></figcaption></figure>
 *   **EAP-TLS** - the most secure method. It requires a certificate on the AS and every single client. There is no need to authenticate the client within the TLS tunnel but it is still used to exchange encryption key information.\
 
 
-    <figure><img src=".gitbook/assets/image (4) (1).png" alt="EAP-TLS auth demo" width="563"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="EAP-TLS auth demo" width="563"><figcaption></figcaption></figure>
 
 ### Encryption and Integrity
 

@@ -12,7 +12,7 @@ A **WAN** (Wide Area Network) is a network that extends over a large geographica
 
 A leased line is a dedicated physical link, typically connecting two sites. Leased lines use serial connections (PPP or HDLC encapsulation). Various standards provide different speeds and different standards are available in different countries.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="leased line standards" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="leased line standards" width="563"><figcaption></figcaption></figure>
 
 Ethernet WAN technologies are becoming popular because of the higher cost, higher installation lead time and slower speed of leased lines.
 
@@ -24,11 +24,11 @@ Similar to the Internet, the service provider's **MPLS** (Multi-Protocol Label S
 * PE router - Provider Edge router
 * P router - Provided core router
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="MPLS example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="MPLS example" width="563"><figcaption></figcaption></figure>
 
 The CE routers don't use MPLS. When using a Layer 3 MPLS VPN, the CE and PE routers peer using OSPF to share routing information. When using a Layer 2 MPLS VPN, the CE and PE routers don't perform peerings. The service provider network is entirely transparent to the CE routers. It's like the two CE routers are directly connected. If a routing protocol is used, the two CE routers peer directly with each other.&#x20;
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="MPLS VPN example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="MPLS VPN example" width="563"><figcaption></figcaption></figure>
 
 ### Internet Connections
 
@@ -36,13 +36,13 @@ The CE routers don't use MPLS. When using a Layer 3 MPLS VPN, the CE and PE rout
 
 **DSL** (Digital Subscriber Line) provides internet connectivity to customers over phone lines and can share the same phone line that is already installed in most homes. A DSL **modem** (modulator-demodulator) is required to convert data into a format suitable to be sent over the phone lines. The modem might be incorporated into the home router or be a separate device.
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt="DSL example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="DSL example" width="563"><figcaption></figcaption></figure>
 
 #### Cable Internet
 
 CableInternet provides internet access via the same **CATV** (Cable Television) lines used for TV service. Like DSL, a cable modem is required to convert data into a format suitable to be sent over the CATV cables. Like a DSL modem, this can be built into the home router or be a separate device.
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1).png" alt="CATV example" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="CATV example" width="563"><figcaption></figcaption></figure>
 
 #### Redundancy
 
