@@ -59,3 +59,4 @@
 * [Day 56](day-56.md)
 * [Day 57](day-57.md)
 * [Day 58](day-58.md)
+* [Day 59](day-59.md)
