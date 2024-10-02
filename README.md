@@ -17,6 +17,3 @@ The course is divided in the form of days. Each day new topic is covered. I will
 </details>
 
 Hope you find my writeups useful and feel free to get in touch if you have any questions/suggestions!)
-
-[LinkedIn](https://www.linkedin.com/in/citizenseven/)\
-[Instagram](https://www.instagram.com/\_citizen\_seven\_/)
